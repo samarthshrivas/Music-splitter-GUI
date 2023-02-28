@@ -1,4 +1,3 @@
+spleeter
 streamlit
 pydub
-numpy
-spleeter
