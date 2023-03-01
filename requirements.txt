@@ -1,5 +1,5 @@
-spleeter
+spleeter == 2.1.0
 streamlit
 # pydub==0.25.1
 # protobuf==3.19.6
-typer==0.4.0
+# typer==0.4.0
