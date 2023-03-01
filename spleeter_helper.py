@@ -9,7 +9,7 @@ def separate_audio(audio_file):
     with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as audio_temp_file:
         audio_temp_file.write(audio_file.read())
         waveform, _ = audio_loader.load(audio_temp_file.name, sample_rate=sample_rate)
-    separator = Separator('spleeter:2stems')
+    separator = Separator('spleeter:2stems', stft_backend="librosa")
 
     prediction = separator.separate(waveform)
     return prediction
