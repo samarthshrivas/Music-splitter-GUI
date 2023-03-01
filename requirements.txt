@@ -1,4 +1,4 @@
-spleeter == 2.1.0
+spleeter==2.1.2
 streamlit
 click == 7.1.1
 # pydub==0.25.1
